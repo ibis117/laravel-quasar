@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #343434;
+}
+
+
+.q-table {
+    thead tr {
+        background: rgba(203, 213, 225, 0.2);
+    }
+
+    thead tr th {
+        font-weight: bold;
+    }
+}
+
+.q-table__card {
+    border-radius: 8px !important;
+}
+
