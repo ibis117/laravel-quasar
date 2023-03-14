@@ -46,11 +46,11 @@
 <script setup>
 import { useQuasar } from "quasar";
 import { storeToRefs } from "pinia";
-import {useValidation} from "../../composeables/useValidation";
+import {useValidation} from "../../composables/useValidation";
 import {useBrandStore} from "../../store/brand-store";
 import TextField from "../../components/form-fields/TextField.vue";
 import TextAreaField from "../../components/form-fields/TextAreaField.vue";
-import {useFormData} from "../../composeables/useFormData";
+import {useFormData} from "../../composables/useFormData";
 
 const $q = useQuasar();
 

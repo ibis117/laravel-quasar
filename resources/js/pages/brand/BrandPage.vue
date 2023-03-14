@@ -90,7 +90,7 @@
 <script setup>
 import {useQuasar} from "quasar";
 import {watch} from "vue";
-import {useCrud} from "../../composeables/useCrud";
+import {useCrud} from "../../composables/useCrud";
 import {useBrandStore} from "../../store/brand-store";
 import MainLayout from "../../layouts/MainLayout.vue";
 import QModal from "../../components/QModal.vue";
