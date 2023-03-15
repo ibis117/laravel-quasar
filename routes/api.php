@@ -19,6 +19,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/profile', [\App\Http\Controllers\Auth\AuthController::class, 'profile']);
 
     Route::resource('/brands', \App\Http\Controllers\BrandsController::class);
+    Route::resource('/posts', \App\Http\Controllers\PostsController::class);
 
 });
 

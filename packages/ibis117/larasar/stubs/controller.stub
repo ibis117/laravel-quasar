@@ -10,6 +10,6 @@ use App\Models\{{ singular }};
 class {{ plural }}Controller extends BaseCrudController
 {
     protected string $model = {{ singular }}::class;
-    protected string $resource = {{ singular }}::class;
+    protected string $resource = {{ singular }}Resource::class;
     protected string $storeRequest = {{ singular }}StoreRequest::class;
 }
